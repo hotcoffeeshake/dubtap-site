@@ -116,3 +116,5 @@ td.us,th.us{background:var(--us);color:var(--ink)}
 .whyback-sub{color:var(--body);max-width:700px;margin:0 0 8px}
 .card.hl{border:2px solid var(--a1)}
 .card p{color:var(--sub)}
+.gifbox video{display:block;width:100%;height:auto;background:#141110}
+.phone img{height:auto}
