@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dubtap.app/sitemap.xml
