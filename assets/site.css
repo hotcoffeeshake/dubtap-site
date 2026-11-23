@@ -90,3 +90,29 @@ td.us,th.us{background:var(--us);color:var(--ink)}
 :root[data-theme="dark"] .theme .sun{display:inline}
 :root[data-theme="dark"] .theme .moon{display:none}
 @media (max-width:760px){.hdr-r{width:100%;justify-content:space-between;align-items:flex-start}}
+
+/* waitlist + back-tap emphasis (2026-11-23) */
+.wl-box{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px;margin:22px 0 6px;max-width:560px}
+.wl-badge{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--link);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.wl-head h3{font-size:22px;line-height:1.2;margin:10px 0 6px}
+.wl-head p{margin:0 0 12px;font-size:16px!important;color:var(--body)}
+.wl{display:flex;flex-wrap:wrap;gap:10px}
+.wl input[type=email]{flex:1 1 220px;min-width:0;font:inherit;font-size:16px;padding:13px 16px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.wl input[type=email]:focus{outline:2px solid var(--a1);outline-offset:1px}
+.wl button{border:0;cursor:pointer;font:inherit;font-weight:700;flex:0 0 auto}
+.wl button:disabled{opacity:.6;cursor:default}
+.wl-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.wl-msg{flex-basis:100%;margin:2px 4px 0;font-size:15px!important;min-height:0}
+.wl-msg.ok{color:#2e9d5b!important;font-weight:600}
+.wl-msg.err{color:#d8473a!important}
+.wl.done input,.wl.done button{display:none}
+.wl-fine{font-size:12.5px!important;color:var(--sub)!important;margin:10px 4px 0;line-height:1.5}
+.vs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 4px}
+.vs span{font-size:14px;font-weight:700;border-radius:999px;padding:6px 12px}
+.vs-no{color:var(--sub);border:1px solid var(--line);text-decoration:line-through;text-decoration-color:rgba(216,71,58,.7)}
+.vs-yes{color:#1a0f0a;background:linear-gradient(135deg,var(--a1),var(--a2))}
+.whyback{padding:0 0 60px}
+.whyback h2{font-size:34px;margin:0 0 8px}
+.whyback-sub{color:var(--body);max-width:700px;margin:0 0 8px}
+.card.hl{border:2px solid var(--a1)}
+.card p{color:var(--sub)}
